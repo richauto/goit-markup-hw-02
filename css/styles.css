@@ -3,7 +3,7 @@
     --logo-font: 'Raleway', sans-serif;
     --main-text-color-dark: #212121;
     --main-text-color-light: #757575;
-
+    --main-background-color: #2F303A;
     --accent-color: #2196F3;
 }
 body {
@@ -67,15 +67,19 @@ body {
 }
 
 /*===================/HEADER=========================*/
+/*======================HAT=========================*/
+
+
+/*=====================/HAT=========================*/
 
 /*===================FOOTER=========================*/
 .footer {
-    position: absolute;
+    /* position: absolute; */
     width: 1600px;
     height: 252px;
     left: 0px;
     /*top: 2097px;*/
-    background-color: #2F303A;
+    background-color: var(--main-background-color);
 }
 .address-link {
     font-weight: 400;
