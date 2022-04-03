@@ -8,6 +8,7 @@
     --accent-color-dark: #188CE8;
     --accent-color-light: #FFFFFF;
     --background-color-light: #F5F4FA;
+    --box-shadow-color: #EEEEEE;
 }
 
 body {
@@ -152,6 +153,9 @@ h3 {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.we-do-menu-item:hover {
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+}
 
 /*=====================/what we do=========================*/
 /*=====================our team=========================*/
@@ -176,6 +180,10 @@ h3 {
 }
 .team-menu-item {
     background: var(--accent-color-light);
+}
+.team-menu-item:hover,
+.team-menu-item:focus {
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
 }
 .team-item-position {
     font-weight: 400;
@@ -233,6 +241,10 @@ h3 {
     /* identical to box height, or 188% */
     
     letter-spacing: 0.03em;
+}
+.portfolio-menu-item:hover,
+.portfolio-menu-item:focus {
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
 }
 /*=====================/portfolio=========================*/
 /* =============================/PORTFOLIO PAGE========================= */
