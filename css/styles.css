@@ -64,6 +64,10 @@ h3 {
 .menu-link:focus {
     color: var(--accent-color);
 }
+/*sign current page*/
+.menu-link.current {
+    color: var(--accent-color);
+}
 
 .contact-link {
     font-weight: 500;
